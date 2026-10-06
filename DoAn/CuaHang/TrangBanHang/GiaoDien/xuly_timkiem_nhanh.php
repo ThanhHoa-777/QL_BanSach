@@ -50,7 +50,7 @@ if (isset($_POST['tu_khoa'])) {
                     $tenSach = htmlspecialchars($sach['tenSach']);
                     $tacGia = htmlspecialchars($sach['tacGia'] ?: 'Đang cập nhật');
                     
-                    // ĐÃ XÓA CHỮ "o1" BỊ LỖI Ở ĐÂY
+                 
                     $giaBan = number_format($sach['giaBan'], 0, ',', '.') . ' ₫'; 
                     
                     // In ra thẻ HTML để hiển thị lên giao diện

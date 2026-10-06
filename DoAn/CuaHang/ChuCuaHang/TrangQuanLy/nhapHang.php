@@ -411,8 +411,7 @@ try {
                 <label style="font-size:13px;font-weight:600">Hình thức thanh toán</label>
                 <select class="adm-input" name="hinhThucTra">
                     <option>Chuyển khoản</option>
-                    <option>Tiền mặt</option>
-                    <option>Chuyển khoản VCB</option>
+                    <option>Tiền mặt</option>                    
                 </select>
             </div>
             <div class="adm-form-group" style="margin-bottom:16px">
